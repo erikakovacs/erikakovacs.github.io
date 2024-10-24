@@ -17,19 +17,19 @@ author: Erika Kovacs
 
   
     <div class="author__avatar">
-      <a href="https://mmistakes.github.io/minimal-mistakes/">
-        <img src="/minimal-mistakes/assets/images/crypto.jpg" alt="Erika Kovacs" itemprop="image" class="u-photo">
+      <a href="https://erikakovacs.github.io">
+        <img src="/assets/images/crypto.jpg" alt="Erika Kovacs" itemprop="image" class="u-photo">
       </a>
     </div>
   
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="https://mmistakes.github.io/minimal-mistakes/" itemprop="url">Erika Kovacs</a>
+      <a class="u-url" rel="me" href="https://erikakovacs.github.io" itemprop="url">Erika Kovacs</a>
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
-        <p>Just another <em>boring</em>, <em>NOT tattooed</em>, <em>time traveling</em>, <em>designer</em>.</p>
+        <p>Digital sleuth fighting for justice in the virtual world.</p>
 
       </div>
     
