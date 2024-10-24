@@ -45,8 +45,32 @@ defaults:
       share: true
       related: true
 
+include:
+  - _pages
 
 
+
+search: true
+
+lunr:
+  search_within_pages: true
+
+
+footer:
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/erika-kovacs-cybersecurity/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/erikakovacs"
+    - label: "Legal and Compliance"
+      icon: "fas fa-fw fa-link"
+      url: erikakovacs.github.io/gdpr
+
+
+atom_feed:
+  hide: true   
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -1,9 +1,11 @@
 ---
 layout: default
 title: projects
-permalink: /projects/
+permalink: projects/
 
 ---
+
+
 
 <div id="main" role="main">
   
@@ -59,6 +61,8 @@ permalink: /projects/
   
   </div>
 
+  
+
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Projects">
     <meta itemprop="description" content="Explore my portfolio as a cybersecurity professional, showcasing my expertise in protecting digital assets.">
@@ -66,17 +70,42 @@ permalink: /projects/
     <meta itemprop="dateModified" content="2022-05-27T11:59:26-04:00">
 
     <div class="page__inner-wrap">
-      
+      <a href="/" class="btn btn--primary">Back to Homepage</a>
+      <hr>
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://erikakovacs.github.io/about-me/" itemprop="url">About
+            <a href="https://erikakovacs.github.io/about-me/" itemprop="url">Projects
 </a>
           </h1>
           
 
 
         </header>
+
+        <style>
+        .content {
+            text-align: justify; /* Sorkizárás */
+            line-height: 1.6; /* Sorok közötti távolság */
+            margin: 20px; /* Margó */
+        }
+        </style>
       
-     
+        <div class="content">   
+        <p>
+        <b>Title of the project: </b>Simulation of SSH attack on different Honeypots</p>
+
+        <p> <b>The purpose of the project:</b> The different SSH Honeypots (tarpit, low interaction, high interaction) were created to recognize on a network to study the behavior of the attacker. I was examining that, what is the purpose of the different honeypots, what types of attacks coould be countered, and what information could be extracted from their logs.</p>
+
+        <p><a href="https://erikakovacs.github.io/projects/ssh" target="_blank">For more details, click here.</a></p>
+
         
-        <p>Coming soon...</p>
+        <hr>
+
+        <p>
+        <b>Title of the project: </b>Organizr</p>
+
+        <p> <b>The purpose of the project:</b> I am currently developing this organizing application to help simplify daily tasks and improve productivity. My goal is to provide users with an intuitive way to manage their schedules, tasks, and priorities all in one place. I aim to reduce the clutter of daily life, allowing users to stay focused and organized with minimal effort. </p>
+
+        <p><a href="https://erikakovacs.github.io/projects/organizr" target="_blank">For more details, click here.</a></p>
+
+        </div>

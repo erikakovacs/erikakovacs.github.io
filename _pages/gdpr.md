@@ -1,10 +1,11 @@
 ---
 layout: default
-title: About me
-permalink: /about-me/
+title: GDPR
+permalink: gdpr/
 author: Erika Kovacs
 
 ---
+
 
 
 <div id="main" role="main">
@@ -62,7 +63,7 @@ author: Erika Kovacs
   </div>
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="About">
+    <meta itemprop="headline" content="GDPR">
     <meta itemprop="description" content="Explore my portfolio as a cybersecurity professional, showcasing my expertise in protecting digital assets.">
     
     <meta itemprop="dateModified" content="2022-05-27T11:59:26-04:00">
@@ -71,7 +72,7 @@ author: Erika Kovacs
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://erikakovacs.github.io/about-me/" itemprop="url">About
+            <a href="https://erikakovacs.github.io/gdpr/" itemprop="url">GDPR
 </a>
           </h1>
           
@@ -82,11 +83,3 @@ author: Erika Kovacs
      
         
         <p>Coming soon...</p>
-           
-                 
-        
-      
-
-      
-
-

@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Posts
-permalink: /posts/
+title: About me
+permalink: about-me/
+author: Erika Kovacs
 
 ---
+
 
 <div id="main" role="main">
   
@@ -59,14 +61,17 @@ permalink: /posts/
   
   </div>
 
+  
+
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Posts">
+    <meta itemprop="headline" content="About">
     <meta itemprop="description" content="Explore my portfolio as a cybersecurity professional, showcasing my expertise in protecting digital assets.">
     
     <meta itemprop="dateModified" content="2022-05-27T11:59:26-04:00">
 
     <div class="page__inner-wrap">
-      
+      <a href="/" class="btn btn--primary">Back to Homepage</a>
+      <hr>
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
             <a href="https://erikakovacs.github.io/about-me/" itemprop="url">About
@@ -80,3 +85,11 @@ permalink: /posts/
      
         
         <p>Coming soon...</p>
+           
+                 
+        
+      
+
+      
+
+

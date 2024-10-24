@@ -1,17 +1,3 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
-excerpt: Insights and projects from my journey in cybersecurity.
-header:
-  overlay_image: /assets/images/crypto.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  actions:
-    - label: Explore projects
-      url: https://erikakovacs.github.io/projects
-
-
 feature_row:
   - image_path: /assets/images/crypto.jpg
     alt: "customizable"
@@ -34,6 +20,3 @@ feature_row:
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"   
----
-
-{% include feature_row %}
