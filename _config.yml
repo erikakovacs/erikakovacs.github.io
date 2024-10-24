@@ -15,15 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: Erika Kovacs
 subtitle: Cybersecurity Porfolio
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+Discover my projects that highlight a commitment to protecting digital environments.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://erikakovacs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  erikakovacs
-
 
 # Build settings
 markdown: kramdown
@@ -48,13 +44,10 @@ defaults:
 include:
   - _pages
 
-
-
 search: true
 
 lunr:
   search_within_pages: true
-
 
 footer:
   links:
@@ -67,7 +60,6 @@ footer:
     - label: "Legal and Compliance"
       icon: "fas fa-fw fa-link"
       url: erikakovacs.github.io/gdpr
-
 
 atom_feed:
   hide: true   

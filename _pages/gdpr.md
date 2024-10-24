@@ -1,7 +1,7 @@
 ---
 layout: default
-title: GDPR
-permalink: gdpr/
+title: Legal and Compliance
+permalink: legal/
 author: Erika Kovacs
 
 ---
