@@ -16,7 +16,7 @@ permalink: /posts/
   
     <div class="author__avatar">
       <a href="https://erikakovacs.github.io">
-        <img src="/assets/images/crypto.jpg" alt="Erika Kovacs" itemprop="image" class="u-photo">
+        <img src="/assets/images/author.jpg" alt="Erika Kovacs" itemprop="image" class="u-photo">
       </a>
     </div>
   
