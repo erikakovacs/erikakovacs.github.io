@@ -28,7 +28,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/python.jpg
-    title: "What you should know before learning a programme language"
+    title: "What you should know before learning a programming language"
     excerpt: "Zero step before coding."
     url: "#test-link"
     btn_label: "Read More"
