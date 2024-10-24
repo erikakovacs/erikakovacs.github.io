@@ -29,7 +29,8 @@ author: Erika Kovacs
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
-        <p>Digital sleuth fighting for justice in the virtual world.</p>
+        <p>Digital sleuth fighting for justice 
+        <br> in the virtual world.</p>
 
       </div>
     
@@ -53,7 +54,35 @@ author: Erika Kovacs
             <li><a href="https://github.com/erikakovacs" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
           
         
+  </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="About">
+    <meta itemprop="description" content="Explore my portfolio as a cybersecurity professional, showcasing my expertise in protecting digital assets.">
+    
+    <meta itemprop="dateModified" content="2022-05-27T11:59:26-04:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://erikakovacs.github.io/about-me/" itemprop="url">About
+</a>
+          </h1>
           
+
+
+        </header>
+      
+     
+        
+        <p>Coming soon...</p>
+           
                  
         
       
