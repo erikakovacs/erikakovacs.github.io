@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About me
-permalink: /about-me/
+title: Posts
+permalink: /posts/
 
 ---
 <title>About - Erika Kovacs</title>
