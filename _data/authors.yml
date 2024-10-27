@@ -1,0 +1,14 @@
+Erika Kovacs:
+  name        : "Erika Kovacs"
+  bio         : "Digital sleuth fighting for justice in the virtual world.."
+  avatar      : "/assets/images/author.jpg"
+  links:
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-link"
+      url: "/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/erika-kovacs-cybersecurity/"
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/erikakovacs"

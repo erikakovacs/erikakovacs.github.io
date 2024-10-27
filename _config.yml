@@ -39,6 +39,8 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "about me"
 
 include:
   - _pages
@@ -47,6 +49,7 @@ search: true
 
 lunr:
   search_within_pages: true
+
 
 footer:
   links:
@@ -58,7 +61,7 @@ footer:
       url: "https://github.com/erikakovacs"
     - label: "Legal and Compliance"
       icon: "fas fa-fw fa-link"
-      url: erikakovacs.github.io/gdpr
+      url: /legal
 
 atom_feed:
   hide: true   
@@ -73,3 +76,6 @@ atom_feed:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+site:
+  author: Erika Kovacs
+

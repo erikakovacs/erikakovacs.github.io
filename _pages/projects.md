@@ -96,7 +96,7 @@ permalink: projects/
 
         <p> <b>The purpose of the project:</b> The different SSH Honeypots (tarpit, low interaction, high interaction) were created to recognize on a network to study the behavior of the attacker. I was examining that, what is the purpose of the different honeypots, what types of attacks coould be countered, and what information could be extracted from their logs.</p>
 
-        <p><a href="https://erikakovacs.github.io/projects/ssh" target="_blank">For more details, click here.</a></p>
+        <p><a href="/projects/ssh" target="_blank">For more details, click here.</a></p>
 
         
         <hr>
@@ -106,6 +106,6 @@ permalink: projects/
 
         <p> <b>The purpose of the project:</b> I am currently developing this organizing application to help simplify daily tasks and improve productivity. My goal is to provide users with an intuitive way to manage their schedules, tasks, and priorities all in one place. I aim to reduce the clutter of daily life, allowing users to stay focused and organized with minimal effort. </p>
 
-        <p><a href="https://erikakovacs.github.io/projects/organizr" target="_blank">For more details, click here.</a></p>
+        <p><a href="/projects/organizr" target="_blank">For more details, click here.</a></p>
 
         </div>

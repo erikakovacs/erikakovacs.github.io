@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About me
+title: About
 permalink: about-me/
-author: Erika Kovacs
 
 ---
+
 
 
 <div id="main" role="main">
@@ -64,7 +64,7 @@ author: Erika Kovacs
   
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="About">
+    <meta itemprop="headline" content="Projects">
     <meta itemprop="description" content="Explore my portfolio as a cybersecurity professional, showcasing my expertise in protecting digital assets.">
     
     <meta itemprop="dateModified" content="2022-05-27T11:59:26-04:00">
@@ -81,15 +81,16 @@ author: Erika Kovacs
 
 
         </header>
+
+        <style>
+        .content {
+            text-align: justify; /* Sorkizárás */
+            line-height: 1.6; /* Sorok közötti távolság */
+            margin: 20px; /* Margó */
+        }
+        </style>
       
-     
+        <div class="content">   
+        <p>
+      This site is under construction...
         
-        <p>Coming soon...</p>
-           
-                 
-        
-      
-
-      
-
-
