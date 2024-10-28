@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/crypto.jpg
   actions:
     - label: "Explore projects"
-      url: "https://erikakovacs.github.io/projects"
+      url: "/projects"
 excerpt: "Insights and projects from my journey in cybersecurity."
 
 intro: 
