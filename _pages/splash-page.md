@@ -18,7 +18,7 @@ feature_row:
   - image_path: /assets/images/security.jpg
     title: "How to start your cybersecurity journey with zero IT knowledge"
     excerpt: "Recommended for career changers."
-    url: "#test-link"
+    url: "study/2024/10/23/Cybersecurity_career"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/study_materials.jpg
