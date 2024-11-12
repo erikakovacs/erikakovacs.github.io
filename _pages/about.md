@@ -92,5 +92,16 @@ permalink: about-me/
       
         <div class="content">   
         <p>
-      This site is under construction...
+      
+
+I am a junior professional currently working in the IT field with a focus on cybersecurity. I hold a degree in Economics and am a 4th-year law student with an IT focus, which allows me to approach problems from both technical and regulatory perspectives.
+
+
+I am committed to continuous learning and development, dedicating my free time to expanding my knowledge in software development, Python programming, and DevOps practices. With 6 years of experience in project management and 8 years of international exposure, I have successfully led projects and handled complex tasks.
+
+
+As I deepen my expertise in cybersecurity, my goal is to combine my background in economics, law, and IT to contribute to the development of secure and efficient technological solutions.
+
+
+
         

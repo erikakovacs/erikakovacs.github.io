@@ -1,5 +1,5 @@
 ---
-title: "Securing Yesterday"
+title: "Securing Started Yesterday"
 layout: splash
 permalink: /
 header:
