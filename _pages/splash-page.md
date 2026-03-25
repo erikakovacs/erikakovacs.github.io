@@ -1,5 +1,5 @@
 ---
-title: "Securing Started Yesterday"
+title: "Analysis • Research • Projects"
 layout: splash
 permalink: /
 header:
@@ -9,14 +9,14 @@ header:
   actions:
     - label: "Explore projects"
       url: "/projects"
-excerpt: "Insights and projects from my journey in cybersecurity."
+excerpt: "Portfolio of analytical projects focused on problem solving, data, and structured thinking."
 
 intro: 
-  - excerpt: ' " The art of investigation does not lie so much in finding the clues as in discovering connections between seemingly unrelated facts. " - Author Unknown'  
+  - excerpt: ' I am interested in understanding complex problems, finding patterns in information, and turning analysis into clear, structured conclusions.'  
 
 feature_row:
   - image_path: /assets/images/security.jpg
-    title: "How to start your cybersecurity journey with zero IT knowledge"
+    title: "F1"
     excerpt: "Recommended for career changers."
     url: "study/2024/10/23/Cybersecurity_career"
     btn_label: "Read More"
