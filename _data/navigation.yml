@@ -1,11 +1,11 @@
 main:
  - title: "Home"
    url: /home/
-    - title: "Projects"
+ - title: "Projects"
    url: /projects/
  - title: "About me"
    url: /about-me/
-    - title: "CV"
+ - title: "CV"
    url: /cv/
  - title: "Contact"
    url: https://www.linkedin.com/in/erika-papp-kovacs/
