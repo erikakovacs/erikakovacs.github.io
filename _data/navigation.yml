@@ -8,5 +8,4 @@ main:
  - title: "CV"
    url: /cv/
  - title: "Contact"
-   url: https://www.linkedin.com/in/erika-papp-kovacs/
-   target: _blank
+   url: /contact/
