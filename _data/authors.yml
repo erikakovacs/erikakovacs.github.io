@@ -1,7 +1,7 @@
 Erika Kovacs:
   name        : "Erika Kovacs"
-  bio         : "Digital sleuth fighting for justice in the virtual world.."
-  avatar      : "/assets/images/author.jpg"
+  bio         : "Understanding complex problems through analysis and research."
+  avatar      : "/assets/images/author_1.jpg"
   links:
     - label: "Portfolio"
       icon: "fas fa-fw fa-link"
