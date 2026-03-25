@@ -29,8 +29,7 @@ permalink: about-me/
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
-        <p>Understanding complex problems through analysis and research.
-        <br> in the virtual world.</p>
+        <p>Understanding complex problems through analysis and research.</p>
 
       </div>
     
