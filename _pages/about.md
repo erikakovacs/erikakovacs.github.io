@@ -65,7 +65,7 @@ permalink: about-me/
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Projects">
-    <meta itemprop="description" content="Explore my portfolio as a cybersecurity professional, showcasing my expertise in protecting digital assets.">
+    <meta itemprop="description" content="This portfolio showcases projects focused on analysis, research, and structured evaluation of complex problems.">
     
     <meta itemprop="dateModified" content="2022-05-27T11:59:26-04:00">
 
@@ -94,13 +94,11 @@ permalink: about-me/
         <p>
       
 
-I am a junior professional currently working in the IT field with a focus on cybersecurity. I hold a degree in Economics and am a 4th-year law student with an IT focus, which allows me to approach problems from both technical and regulatory perspectives.
+I have a multidisciplinary background in economics, law, and IT, combined with experience in project management and international work environments. This allows me to approach problems from different perspectives and to work on topics that require both analytical and structured thinking.
 
+I focus on understanding complex problems through research, data analysis, and scenario modelling, with the goal of building clear and structured conclusions. My work typically involves comparing different approaches, evaluating information from multiple sources, and presenting findings in a structured way.
 
-I am committed to continuous learning and development, dedicating my free time to expanding my knowledge in software development, Python programming, and DevOps practices. With 6 years of experience in project management and 8 years of international exposure, I have successfully led projects and handled complex tasks.
-
-
-As I deepen my expertise in cybersecurity, my goal is to combine my background in economics, law, and IT to contribute to the development of secure and efficient technological solutions.
+I am particularly interested in areas where systems, data, and regulation intersect, and where analytical work can support better understanding and decision-making.
 
 
 
