@@ -18,7 +18,7 @@ permalink: about-me/
   
     <div class="author__avatar">
       <a href="https://erikakovacs.github.io">
-        <img src="/assets/images/author.jpg" alt="Erika Kovacs" itemprop="image" class="u-photo">
+        <img src="/assets/images/author_1.jpg" alt="Erika Papp-Kovacs" itemprop="image" class="u-photo">
       </a>
     </div>
   
@@ -29,7 +29,7 @@ permalink: about-me/
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
-        <p>Digital sleuth fighting for justice 
+        <p>Understanding complex problems through analysis and research.
         <br> in the virtual world.</p>
 
       </div>
