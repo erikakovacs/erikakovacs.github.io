@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Erika Kovacs
-subtitle: Cybersecurity Porfolio
-description: "Discover my projects that highlight a commitment to protecting digital environments."
+title: Erika Papp - Kovacs
+subtitle: Problem Solving & Analysis
+description: "Portfolio of analytical projects focused on problem solving, data, and structured thinking."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://erikakovacs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  erikakovacs
@@ -55,7 +55,7 @@ footer:
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/erika-kovacs-cybersecurity/"
+      url: "https://www.linkedin.com/in/erika-papp-kovacs/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/erikakovacs"
@@ -77,5 +77,5 @@ atom_feed:
 #   - vendor/gems/
 #   - vendor/ruby/
 site:
-  author: Erika Kovacs
+  author: Erika Papp - Kovacs
 
