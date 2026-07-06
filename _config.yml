@@ -1,24 +1,11 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Erika Papp - Kovacs
-subtitle: Problem Solving & Analysis
-description: "Portfolio of analytical projects focused on problem solving, data, and structured thinking."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://erikakovacs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  erikakovacs
+title: Erika Papp-Kovacs
+subtitle: ""
+description: "Focusing on legislation, practice and the gap between them."
+baseurl: ""
+url: "https://erikakovacs.github.io"
+github_username: erikakovacs
+author: Erika Papp-Kovacs
 
 # Build settings
 markdown: kramdown
@@ -28,19 +15,16 @@ plugins:
   - jekyll-include-cache
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      sidebar:
-        nav: "about me"
+      read_time: false
+      comments: false
+      share: false
+      related: false
 
 include:
   - _pages
@@ -50,32 +34,20 @@ search: true
 lunr:
   search_within_pages: true
 
-
 footer:
   links:
-    - label: "Linkedin"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/erika-papp-kovacs/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/erikakovacs"
-    - label: "Legal and Compliance"
-      icon: "fas fa-fw fa-link"
+    - label: "Legal & Compliance"
+      icon: "fas fa-fw fa-scale-balanced"
       url: /legal
 
 atom_feed:
-  hide: true   
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-site:
-  author: Erika Papp - Kovacs
+  hide: true
 
+site:
+  author: Erika Papp-Kovacs

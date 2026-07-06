@@ -1,39 +1,35 @@
 ---
-title: "Analysis • Research • Projects"
+title: "Environmental Law Research & Analysis"
 layout: splash
 permalink: /
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/background.png
+  overlay_color: "#1a3d32"
+  overlay_filter: "0.65"
   actions:
-    - label: "Explore projects"
-      url: "/projects"
-excerpt: "Portfolio of analytical projects focused on problem solving, data, and structured thinking."
+    - label: "For Professionals"
+      url: "/for-professionals/"
+    - label: "Browse Everyday Topics"
+      url: "/everyday/"
+excerpt: "Focusing on legislation, practice and the gap between them."
 
-intro: 
-  - excerpt: ' I am interested in understanding complex problems, finding patterns in information, and turning analysis into clear, structured conclusions.'  
+intro:
+  - excerpt: "I study how environmental laws work on paper and in practice, with a current focus on plastics regulation. My aim is to turn that research into practical materials and clear explainers for people interested in environmental issues."
 
 feature_row:
-
-## Project Examples
-  - image_path: /assets/images/security.jpg
-    title: "Log Data Analysis Case Study"
-    excerpt: "Comparative case study based on log data analysis and evaluation of different system configurations."
-    url: "study/2024/10/23/Cybersecurity_career"
-    btn_label: "Read More"
+  - title: "Research"
+    excerpt: "Studying legislation and how it works in practice, currently focused on plastics regulation."
+    url: "/research/"
+    btn_label: "View Research"
     btn_class: "btn--primary"
-  - image_path: /assets/images/study_materials.jpg
-    title: "Scenario Modelling"
-    excerpt: "Scenario modelling project focused on structured analysis, documentation, and clear explanation of complex topics."
-    url: "#test-link"
-    btn_label: "Read More"
+  - title: "For professionals"
+    excerpt: "Research-based materials for companies and organisations, including briefs, summaries, analysis and training."
+    url: "/for-professionals/"
+    btn_label: "Open to collaboration"
     btn_class: "btn--primary"
-  - image_path: /assets/images/python.jpg
-    title: "Research Project"
-    excerpt: "Academic research project prepared for a scientific conference, focusing on literature review, analysis, and structured conclusions."
-    url: "#test-link"
-    btn_label: "Read More"
+  - title: "Everyday topics"
+    excerpt: "Clear, practical explainers on everyday topics written for people who want plain answers."
+    url: "/everyday/"
+    btn_label: "Explore Topics"
     btn_class: "btn--primary"
 ---
 

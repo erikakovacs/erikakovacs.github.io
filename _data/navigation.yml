@@ -1,11 +1,15 @@
 main:
- - title: "Home"
-   url: /home/
- - title: "Projects"
-   url: /projects/
- - title: "About me"
-   url: /about-me/
- - title: "CV"
-   url: /cv/
- - title: "Contact"
-   url: /contact/
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "For professionals"
+    url: /for-professionals/
+  - title: "Everyday topics"
+    url: /everyday/
+  - title: "Archive"
+    url: /projects/
+  - title: "About"
+    url: /about-me/
+  - title: "Contact"
+    url: /contact/

@@ -1,11 +1,17 @@
 ---
 layout: single
 title: SSH-Hack-Lab
-permalink: projects/ssh
+permalink: /projects/ssh/
+author_profile: true
 ---
 
+<style>
+body { text-align: justify; }
+.section-left { text-align: left; }
+.section-left img { display: block; margin: 1em 0; max-width: 100%; }
+</style>
 
-<style>body {text-align: justify}</style>
+<p><a href="/projects/">← Back to Archive</a></p>
 
 This project focuses on simulating and testing three different SSH attack techniques in a lab environment. The goal is to demonstrate common vulnerabilities in SSH protocols and showcase potential security risks that attackers might exploit. Each attack scenario is carefully documented, providing insights into the mechanics of the attack, its impact, and possible mitigation strategies. This project serves as an educational resource for understanding SSH-based threats and improving overall security practices.
 
@@ -22,9 +28,13 @@ Threats and Vulnerabilities:
 
 **Phase 3: Infrastucture**
 
+<div class="section-left" markdown="1">
+
 3.1. Planned Modification of the Current Architecture
+
 ![Architecture](/assets/images/architecture.jpg)
 
+</div>
 
 Steps:
 - Creation of isolated network
@@ -71,6 +81,3 @@ Here you can check the [Attacks](/assets/docs/prezi.pdf){:target="_blank"}.
 - Dockerize the services
 - Allow outgoing trafﬁc for more insights
 - New kind of honeypots
-
-
-

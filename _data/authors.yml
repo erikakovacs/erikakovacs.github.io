@@ -1,14 +1,14 @@
-Erika Kovacs:
-  name        : "Erika Papp-Kovacs"
-  bio         : "Understanding complex problems through analysis and research."
-  avatar      : "/assets/images/author_1.jpg"
+Erika Papp-Kovacs:
+  name: "Erika Papp-Kovacs"
+  bio: "Environmental law researcher — legislation, practice and the gap between them."
+  avatar: "/assets/images/author_1.jpg"
   links:
-    - label: "Portfolio"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "/"
-    - label: "Linkedin"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/erika-papp-kovacs/"
-    - label: "Github"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/erikakovacs"
