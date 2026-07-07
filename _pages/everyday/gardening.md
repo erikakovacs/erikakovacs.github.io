@@ -9,4 +9,3 @@ author_profile: true
 
 Posts on **gardening** and everyday environmental questions — coming soon.
 
-{% include page-disclaimer.html %}

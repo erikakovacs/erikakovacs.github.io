@@ -9,4 +9,3 @@ author_profile: true
 
 Posts on **water** — coming soon.
 
-{% include page-disclaimer.html %}

@@ -5,7 +5,7 @@ permalink: /for-professionals/
 author_profile: true
 ---
 
-I take on selected projects that turn research on environmental law and practice into useful materials for organisations, companies, NGOs and public bodies.
+I turn research into practical material for companies and organisations, including briefs, summaries, analysis and training.
 
 ## What I offer
 
@@ -17,18 +17,15 @@ I take on selected projects that turn research on environmental law and practice
 | **Training & workshops** | Tailored sessions to build regulatory literacy in your organisation |
 | **ESG** | Research and materials supporting environmental, social and governance reporting and compliance |
 
-*This is analytical and educational work, not legal advice.*
-
 ## Who it's for
 
 Researchers and think tanks · companies · NGOs · public-sector teams
 
 ## How it works
 
-1. **Brief** — topic, audience, deadline via [Contact](/contact/) or [LinkedIn](https://www.linkedin.com/in/erika-papp-kovacs/)
-2. **Scope** — deliverables, format and fee
-3. **Delivery** — structured material with verifiable sources
+**Start** — Get in touch via [LinkedIn](https://www.linkedin.com/in/erika-papp-kovacs/) or [book a 15-minute call](https://calendly.com/illek6/book-a-15-minute-call) and let me know the topic, audience and timing.
 
-<p><a href="/contact/" class="btn btn--primary">Discuss a Project</a></p>
+**Agree** — We clarify what you need (type of material, length, format) and the fee.
 
-{% include page-disclaimer.html %}
+**Deliver** — I send you structured material with clear sources you can check and reuse.
+

@@ -9,4 +9,3 @@ author_profile: true
 
 Posts on **waste and recycling** — coming soon.
 
-{% include page-disclaimer.html %}

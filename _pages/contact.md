@@ -5,11 +5,14 @@ permalink: /contact/
 author_profile: true
 ---
 
-- **Email:** coming soon
-- **LinkedIn:** [linkedin.com/in/erika-papp-kovacs](https://www.linkedin.com/in/erika-papp-kovacs)
+## Professional enquiries
 
-**Organisations:** topic, type of material you need, timeline.
+{% include contact-pro.html %}
 
-**Everyday questions:** what you're curious about. I'll explain what I can or point you elsewhere.
+## Everyday topics
 
-{% include page-disclaimer.html %}
+For questions related to everyday topics, you can reach me by email.
+
+<p><a href="mailto:ops.research.2026@gmail.com?subject=Everyday%20topic%20question" class="btn btn--primary">Send an email</a></p>
+
+Describe what you are curious about. I will explain what I can or point you elsewhere.

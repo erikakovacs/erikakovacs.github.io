@@ -9,4 +9,3 @@ author_profile: true
 
 Posts on **consumer choices** — coming soon.
 
-{% include page-disclaimer.html %}

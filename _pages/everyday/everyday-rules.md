@@ -9,4 +9,3 @@ author_profile: true
 
 Posts on **everyday rules** — coming soon.
 
-{% include page-disclaimer.html %}

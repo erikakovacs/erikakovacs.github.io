@@ -9,4 +9,3 @@ author_profile: true
 
 Posts on **plastics** — coming soon.
 
-{% include page-disclaimer.html %}

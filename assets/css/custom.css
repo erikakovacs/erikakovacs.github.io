@@ -2,12 +2,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap");
 
 body { font-family: "Source Sans 3", sans-serif; }
-h1, h2, h3, .site-title, .page__title { font-family: "Cormorant Garamond", Georgia, serif; }
+h1, h2, h3, .page__title { font-family: "Cormorant Garamond", Georgia, serif; }
+.masthead__inner-wrap,
+.greedy-nav a {
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.greedy-nav .site-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.greedy-nav .site-mark {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  flex-shrink: 0;
+}
+.greedy-nav .site-mark img {
+  height: 2.7em;
+  width: auto;
+  display: block;
+}
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.greedy-nav a {
+  margin: 0 0.65rem;
+}
 .site-subtitle { color: #3d6b59; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.75rem; }
 .site-subtitle:empty { display: none; }
-.btn--primary { background-color: #2f5e4e; border-color: #2f5e4e; }
-a:hover { color: #1f4035; }
-.page-disclaimer { margin-top: 2rem; padding: 1rem; background: #f5f3ef; border-radius: 8px; font-size: 0.9rem; color: #5c6b62; }
+.btn.btn--primary,
+.btn.btn--primary:visited {
+  background-color: #2f5e4e;
+  border-color: #2f5e4e;
+  color: #fff;
+}
+.btn.btn--primary:hover,
+.btn.btn--primary:focus {
+  background-color: #1f4035;
+  border-color: #1f4035;
+  color: #fff;
+}
+a:not(.btn):hover { color: #1f4035; }
+.site-disclaimer-bar {
+  margin-top: 2.5rem;
+  padding: 0.85rem 1rem;
+  background: #f5f3ef;
+  border-top: 1px solid #e3ddd3;
+  border-bottom: 1px solid #e3ddd3;
+}
+.site-disclaimer-bar .site-disclaimer {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0.625rem;
+  line-height: 1.4;
+  color: #8a9690;
+  text-align: center;
+  max-width: 42rem;
+}
+.page__footer { margin-top: 0; }
 .everyday-topics { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin: 1.5rem 0; }
 .everyday-topic { padding: 1.25rem; background: #f5f3ef; border-radius: 8px; border: 1px solid #e3ddd3; }
 .everyday-topic h3 { margin-top: 0; font-size: 1.15rem; }
@@ -43,6 +103,144 @@ a:hover { color: #1f4035; }
   border-top: 3px solid #2f5e4e;
   padding-top: 0.5rem;
 }
-.page__hero--overlay {
-  background: linear-gradient(135deg, #1a3d32 0%, #2f5e4e 50%, #3a7563 100%) !important;
+.layout--splash .page__hero--overlay {
+  margin-bottom: 0;
+  background-size: cover;
+  background-position: center;
+}
+.layout--splash .page__hero--overlay .wrapper {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 5rem;
+  text-align: center;
+}
+.layout--splash .page__hero--overlay .page__title {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  margin-bottom: 0;
+}
+.layout--splash .page__hero--overlay .page__title-line {
+  white-space: nowrap;
+}
+.layout--splash .page__hero--overlay .page__lead {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.88);
+  margin: 1.25rem auto 0;
+  max-width: 32rem;
+}
+.layout--splash .page__hero--overlay .wrapper > p:has(.btn) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2.25rem;
+}
+.layout--splash .page__hero--overlay .btn--light-outline {
+  background: #fff;
+  color: #1a3d32;
+  border: none;
+  border-radius: 999px;
+  padding: 0.8em 1.6em;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.layout--splash .page__hero--overlay .btn--light-outline:hover {
+  background: #f0f5f2;
+  color: #1a3d32;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
+.layout--splash .page__hero--overlay .btn--light-outline + .btn--light-outline {
+  background: transparent;
+  color: #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.45);
+  box-shadow: none;
+}
+.layout--splash .page__hero--overlay .btn--light-outline + .btn--light-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.7);
+  color: #fff;
+}
+.layout--splash .initial-content,
+.layout--splash .search-content {
+  flex: 0 0 auto;
+}
+
+.layout--splash .site-disclaimer-bar {
+  margin-top: 0;
+  border-top: none;
+}
+.layout--splash #main {
+  display: none;
+}
+
+.contact-pro {
+  margin: 1.25rem 0 2rem;
+  padding: 1.75rem 1.5rem;
+  background: #f5f3ef;
+  border: 1px solid #e3ddd3;
+  border-top: 3px solid #2f5e4e;
+  border-radius: 10px;
+}
+.contact-pro__lead {
+  margin: 0 0 1.25rem;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: #3d4144;
+}
+.contact-pro__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+.contact-pro__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75em 1.35em;
+  border-radius: 999px;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.contact-pro__btn:hover {
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+.contact-pro__btn--linkedin {
+  background: #2f5e4e;
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(47, 94, 78, 0.25);
+}
+.contact-pro__btn--linkedin:hover {
+  background: #1f4035;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(47, 94, 78, 0.3);
+}
+.contact-pro__btn--calendly {
+  background: #fff;
+  color: #2f5e4e;
+  border: 1.5px solid #2f5e4e;
+}
+.contact-pro__btn--calendly:hover {
+  background: #eef4f0;
+  color: #1f4035;
+}
+.contact-pro__note {
+  margin: 1.15rem 0 0;
+  font-size: 0.9rem;
+  color: #5c6b62;
 }

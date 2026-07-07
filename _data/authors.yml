@@ -1,14 +1,8 @@
 Erika Papp-Kovacs:
   name: "Erika Papp-Kovacs"
-  bio: "Environmental law researcher — legislation, practice and the gap between them."
+  bio: "Researching environmental law, from legislation to real-world implementation."
   avatar: "/assets/images/author_1.jpg"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/erika-papp-kovacs/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/erikakovacs"
