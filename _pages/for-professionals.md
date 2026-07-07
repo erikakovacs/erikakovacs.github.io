@@ -5,7 +5,7 @@ permalink: /for-professionals/
 author_profile: true
 ---
 
-My research focuses on environmental law, mainly around plastics regulation, implementation and enforcement. Here are some of my research areas.
+My research focuses on environmental law, mainly around plastics regulation, implementation and enforcement.
 
 ## What I can help with
 
