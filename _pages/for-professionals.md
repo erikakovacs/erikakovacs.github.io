@@ -5,27 +5,28 @@ permalink: /for-professionals/
 author_profile: true
 ---
 
-I turn research into practical material for companies and organisations, including briefs, summaries, analysis and training.
+My research focuses on environmental law, mainly around plastics regulation, implementation and enforcement. Here are some of my research areas.
 
-## What I offer
+## What I can help with
 
-| Output | What it's for |
-|---|---|
-| **Research support** | Literature reviews, regulatory analysis, co-authored work — grounded in how law works in practice |
-| **Policy briefs & summaries** | Sourced overviews your team can use, cite and build on |
-| **Regulatory mapping** | Comparative tables, timelines, gap analyses across jurisdictions |
-| **Training & workshops** | Tailored sessions to build regulatory literacy in your organisation |
-| **ESG** | Research and materials supporting environmental, social and governance reporting and compliance |
+**Research support** — literature reviews, regulatory analysis and co-authored work grounded in how law works in practice.
 
-## Who it's for
+**Briefs & summaries** — short, sourced overviews on specific questions or pieces of legislation.
 
-Researchers and think tanks · companies · NGOs · public-sector teams
+**Regulatory mapping** — comparative tables, timelines and gap notes across jurisdictions.
+
+**Workshops** — small-group sessions on plastics regulation, implementation and related topics.
+
+**ESG & reporting** — background research supporting environmental and compliance work.
+
+## Who this is for
+
+Researchers and think tanks, companies, NGOs and public-sector teams working with environmental rules or plastics regulation.
 
 ## How it works
 
-**Start** — Get in touch via [LinkedIn](https://www.linkedin.com/in/erika-papp-kovacs/) or [book a 15-minute call](https://calendly.com/illek6/book-a-15-minute-call) and let me know the topic, audience and timing.
+**Get in touch** — via [LinkedIn](https://www.linkedin.com/in/erika-papp-kovacs/) or by [booking a 15-minute call](https://calendly.com/illek6/book-a-15-minute-call).
 
-**Agree** — We clarify what you need (type of material, length, format) and the fee.
+**Clarify** — we define what you need (question, type of output, length, timing).
 
-**Deliver** — I send you structured material with clear sources you can check and reuse.
-
+**Delivery** — I share structured material with clear sources you can check and reuse.

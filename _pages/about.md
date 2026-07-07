@@ -5,7 +5,7 @@ permalink: /about-me/
 author_profile: true
 ---
 
-I'm Erika Papp-Kovacs. I studied economics and I am now in the final year of my law degree. I work as a student researcher at the Genezis College of Excellence.
+I'm Erika Papp-Kovacs. I studied economics and I am now in the final year of my law degree. I am a student researcher at the Genezis College of Excellence.
 
 My work focuses on environmental law, especially plastics regulation: how rules are drafted at EU level, how they are implemented nationally, and what happens in practice when they meet everyday decisions.
 
