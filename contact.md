@@ -17,3 +17,5 @@ You can contact me for:
 - questions about my work
 
 {% include contact-pro.html %}
+
+{% include contact-email.html %}

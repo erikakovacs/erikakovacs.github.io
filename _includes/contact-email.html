@@ -1,0 +1,13 @@
+<p class="contact-email">
+  For enquires, please reach out by e-mail:
+  <a href="#" class="contact-email__link" data-e="ZXJpa2FwYXBwa292YWNzQGdtYWlsLmNvbQ==">erikapappkovacs<span aria-hidden="true"> [at] </span>gmail<span aria-hidden="true"> [dot] </span>com</a>
+</p>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".contact-email__link[data-e]").forEach(function (el) {
+      var email = atob(el.dataset.e);
+      el.textContent = email;
+      el.href = "mailto:" + email;
+    });
+  });
+</script>
