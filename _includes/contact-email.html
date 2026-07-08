@@ -1,13 +1,41 @@
-<p class="contact-email">
-  For enquires, please reach out by e-mail:
-  <a href="#" class="contact-email__link" data-e="ZXJpa2FwYXBwa292YWNzQGdtYWlsLmNvbQ==">erikapappkovacs<span aria-hidden="true"> [at] </span>gmail<span aria-hidden="true"> [dot] </span>com</a>
-</p>
+{% assign email_local = "erikapappkovacs" %}
+{% assign email_host = "gmail.com" %}
+<div class="contact-email">
+  <p class="contact-email__intro">For enquires, please reach out by e-mail:</p>
+  <button
+    type="button"
+    class="contact-email__reveal"
+    data-e="ZXJpa2FwYXBwa292YWNzQGdtYWlsLmNvbQ=="
+    aria-expanded="false"
+    aria-controls="contact-email-address"
+  >
+    <i class="far fa-fw fa-envelope" aria-hidden="true"></i>
+    Show email address
+  </button>
+  <p id="contact-email-address" class="contact-email__address" hidden>
+    <a href="#" class="contact-email__link" translate="no"></a>
+  </p>
+  <noscript>
+    <p class="contact-email__fallback">{{ email_local }} [at] {{ email_host | replace: ".", " [dot] " }}</p>
+  </noscript>
+</div>
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".contact-email__link[data-e]").forEach(function (el) {
-      var email = atob(el.dataset.e);
-      el.textContent = email;
-      el.href = "mailto:" + email;
+  (function () {
+    var btn = document.querySelector(".contact-email__reveal");
+    if (!btn) return;
+
+    btn.addEventListener("click", function () {
+      var panel = document.getElementById("contact-email-address");
+      var link = panel && panel.querySelector(".contact-email__link");
+      if (!panel || !link || btn.getAttribute("aria-expanded") === "true") return;
+
+      var email = atob(btn.dataset.e);
+      link.textContent = email;
+      link.href = "mailto:" + email;
+      panel.hidden = false;
+      btn.hidden = true;
+      btn.setAttribute("aria-expanded", "true");
+      link.focus();
     });
-  });
+  })();
 </script>
