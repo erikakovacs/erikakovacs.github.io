@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if page.splash_intro %}
+  <section class="splash-intro" aria-label="About this work">
+    <div class="splash-intro__panel">
+      {% if page.splash_intro.lead %}
+        <p class="splash-intro__lead">{{ page.splash_intro.lead }}</p>
+      {% endif %}
+      {% if page.splash_intro.focus %}
+        <p class="splash-intro__focus">{{ page.splash_intro.focus }}</p>
+      {% endif %}
+      {% if page.splash_intro.outcome %}
+        <p class="splash-intro__outcome">{{ page.splash_intro.outcome }}</p>
+      {% endif %}
+    </div>
+  </section>
+{% elsif content %}
+  <section class="splash-intro" aria-label="About this work">
+    <div class="splash-intro__panel">
+      {{ content }}
+    </div>
+  </section>
+{% endif %}
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+  </article>
+</div>

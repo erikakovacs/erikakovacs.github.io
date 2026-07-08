@@ -1,0 +1,60 @@
+<div class="site-footer">
+  <div class="site-footer__brand">
+    <p class="site-footer__name">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </p>
+    {% if site.data.navigation.footer.tagline %}
+      <p class="site-footer__tagline">{{ site.data.navigation.footer.tagline }}</p>
+    {% endif %}
+  </div>
+
+  <div class="site-footer__grid">
+    {% if site.data.navigation.footer.site %}
+      <div class="site-footer__block">
+        <h2 class="site-footer__heading">Site</h2>
+        <ul class="site-footer__list">
+          {%- for link in site.data.navigation.footer.site -%}
+            <li>
+              <a href="{{ link.url | relative_url }}">
+                {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
+                <span>{{ link.title }}</span>
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    {% endif %}
+
+    {% if site.data.navigation.footer.legal %}
+      <div class="site-footer__block">
+        <h2 class="site-footer__heading">Legal</h2>
+        <ul class="site-footer__list">
+          {%- for link in site.data.navigation.footer.legal -%}
+            <li>
+              <a href="{{ link.url | relative_url }}">
+                {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
+                <span>{{ link.title }}</span>
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    {% endif %}
+
+    {% if site.data.navigation.footer.profiles %}
+      <div class="site-footer__block">
+        <h2 class="site-footer__heading">Profiles</h2>
+        <ul class="site-footer__list">
+          {%- for link in site.data.navigation.footer.profiles -%}
+            <li>
+              <a href="{{ link.url }}"{% if link.external %} rel="nofollow noopener noreferrer"{% endif %}>
+                {% if link.icon %}<i class="{{ link.icon }}" aria-hidden="true"></i>{% endif %}
+                <span>{{ link.title }}</span>
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+</div>

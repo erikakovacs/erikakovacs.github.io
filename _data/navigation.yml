@@ -5,11 +5,36 @@ main:
     url: /research/
   - title: "For professionals"
     url: /for-professionals/
-  - title: "Everyday topics"
-    url: /everyday/
-  - title: "Archive"
-    url: /projects/
   - title: "About"
     url: /about-me/
   - title: "Contact"
     url: /contact/
+
+footer:
+  tagline: "EU plastics and packaging regulation research"
+  site:
+    - title: "Research"
+      url: /research/
+      icon: "fas fa-fw fa-book-open"
+    - title: "For professionals"
+      url: /for-professionals/
+      icon: "fas fa-fw fa-briefcase"
+    - title: "About"
+      url: /about-me/
+      icon: "fas fa-fw fa-user"
+    - title: "Contact"
+      url: /contact/
+      icon: "fas fa-fw fa-envelope"
+  legal:
+    - title: "Legal & compliance"
+      url: /legal/
+      icon: "fas fa-fw fa-scale-balanced"
+  profiles:
+    - title: "LinkedIn"
+      url: "https://www.linkedin.com/in/erika-papp-kovacs/"
+      icon: "fab fa-fw fa-linkedin"
+      external: true
+    - title: "GitHub"
+      url: "https://github.com/erikakovacs"
+      icon: "fab fa-fw fa-github"
+      external: true

@@ -1,7 +1,6 @@
 ---
 layout: single
 title: SSH-Hack-Lab
-permalink: /projects/ssh/
 author_profile: true
 ---
 

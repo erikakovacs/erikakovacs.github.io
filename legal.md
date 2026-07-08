@@ -1,7 +1,6 @@
 ---
 title: "Legal and Compliance"
 layout: single
-permalink: /legal
 author_profile: true
 ---
 

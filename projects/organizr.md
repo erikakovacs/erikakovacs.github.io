@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Organizr
-permalink: projects/organizr/
 author_profile: true
 ---
 

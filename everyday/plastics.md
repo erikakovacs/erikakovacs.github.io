@@ -1,11 +1,10 @@
 ---
 title: "Plastics"
 layout: single
-permalink: /everyday/plastics/
 author_profile: true
 ---
 
-<p><a href="/everyday/">← Everyday Guide</a></p>
+<p><a href="/research/#everyday-topics">← Research</a></p>
 
 Posts on **plastics** — coming soon.
 

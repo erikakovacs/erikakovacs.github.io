@@ -1,11 +1,10 @@
 ---
 title: "Everyday rules"
 layout: single
-permalink: /everyday/everyday-rules/
 author_profile: true
 ---
 
-<p><a href="/everyday/">← Everyday Guide</a></p>
+<p><a href="/research/#everyday-topics">← Research</a></p>
 
 Posts on **everyday rules** — coming soon.
 

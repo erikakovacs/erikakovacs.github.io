@@ -1,11 +1,10 @@
 ---
 title: "Nature & landscapes"
 layout: single
-permalink: /everyday/nature/
 author_profile: true
 ---
 
-<p><a href="/everyday/">← Everyday Guide</a></p>
+<p><a href="/research/#everyday-topics">← Research</a></p>
 
 Posts on **nature and landscapes** — coming soon.
 

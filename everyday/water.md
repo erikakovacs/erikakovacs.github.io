@@ -1,11 +1,10 @@
 ---
 title: "Water"
 layout: single
-permalink: /everyday/water/
 author_profile: true
 ---
 
-<p><a href="/everyday/">← Everyday Guide</a></p>
+<p><a href="/research/#everyday-topics">← Research</a></p>
 
 Posts on **water** — coming soon.
 

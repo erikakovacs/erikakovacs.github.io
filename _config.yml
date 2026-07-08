@@ -9,6 +9,7 @@ author: Erika Papp-Kovacs
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
   - jekyll-feed
@@ -33,18 +34,6 @@ search: true
 
 lunr:
   search_within_pages: true
-
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/erika-papp-kovacs/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/erikakovacs"
-    - label: "Legal & Compliance"
-      icon: "fas fa-fw fa-scale-balanced"
-      url: /legal
 
 atom_feed:
   hide: true
