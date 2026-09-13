@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Organizr
-author_profile: true
+author_profile: false
 ---
 
 <p><a href="/projects/">← Back to Archive</a></p>

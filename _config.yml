@@ -18,6 +18,11 @@ plugins:
 defaults:
   - scope:
       path: ""
+    values:
+      robots: "noindex, nofollow"
+      sitemap: false
+  - scope:
+      path: ""
       type: posts
     values:
       layout: single

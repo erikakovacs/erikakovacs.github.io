@@ -1,0 +1,78 @@
+---
+---
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ site.locale | replace: '_', '-' | default: 'en' }}" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access - EPK</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% include head/custom.html %}
+  </head>
+  <body class="layout--gate">
+    <main
+      class="site-gate"
+      style="background-image: url('{{ page.photo | default: '/assets/images/backg.jpg' | relative_url }}');"
+      aria-label="{{ page.lead | default: 'Access' | escape }}"
+    >
+      <div class="site-gate__overlay">
+        {% if page.lead %}
+          <p class="site-gate__lead">{{ page.lead }}</p>
+        {% endif %}
+        <form class="site-gate__form" id="site-gate-form" novalidate>
+          <label class="visually-hidden" for="site-gate-code">{{ page.code_label | default: 'Access code' }}</label>
+          <input
+            id="site-gate-code"
+            class="site-gate__input"
+            type="password"
+            name="access-code"
+            autocomplete="off"
+            spellcheck="false"
+            placeholder="{{ page.code_placeholder | default: 'Access code' }}"
+          >
+          <button class="site-gate__submit" type="submit">{{ page.submit_label | default: 'Enter' }}</button>
+          <p class="site-gate__error" id="site-gate-error" hidden>{{ page.error | default: 'That code is not correct.' }}</p>
+        </form>
+      </div>
+    </main>
+    <script>
+      (function () {
+        var form = document.getElementById('site-gate-form');
+        var input = document.getElementById('site-gate-code');
+        var error = document.getElementById('site-gate-error');
+        var expected = {{ site.data.gate.code_hash | jsonify }};
+        var key = {{ site.data.gate.storage_key | jsonify }};
+        var dest = {{ site.data.gate.destination | relative_url | jsonify }};
+
+        function hex(buffer) {
+          return Array.from(new Uint8Array(buffer))
+            .map(function (b) { return b.toString(16).padStart(2, '0'); })
+            .join('');
+        }
+
+        function hash(value) {
+          return crypto.subtle.digest('SHA-256', new TextEncoder().encode(value.trim().toLowerCase()))
+            .then(hex);
+        }
+
+        form.addEventListener('submit', function (event) {
+          event.preventDefault();
+          error.hidden = true;
+          hash(input.value).then(function (digest) {
+            if (digest === expected) {
+              try { window.localStorage.setItem(key, digest); } catch (e) {}
+              window.location.replace(dest);
+              return;
+            }
+            error.hidden = false;
+            input.value = '';
+            input.focus();
+          }).catch(function () {
+            error.hidden = false;
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,7 +1,7 @@
 ---
 title: "Consumer choices"
 layout: single
-author_profile: true
+author_profile: false
 ---
 
 <p><a href="/research/#everyday-topics">← Research</a></p>

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: SSH-Hack-Lab
-author_profile: true
+author_profile: false
 ---
 
 <style>

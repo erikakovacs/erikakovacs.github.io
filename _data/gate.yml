@@ -1,0 +1,5 @@
+# SHA-256 hex of the lowercase UTF-8 access code.
+# To change the code, run: echo -n 'yourcode' | shasum -a 256
+code_hash: "1ef0ddabe28637a57d1667b4f961a17ca4a673643bb1c603224f5b4fe8bcea8e"
+destination: /home/
+storage_key: ek-site-access

@@ -1,1 +1,30 @@
+<meta name="robots" content="noindex, nofollow">
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v={{ site.github.build_revision | default: site.time | date: '%Y%m%d%H%M' }}">
+{% if site.data.gate.code_hash %}
+<script>
+  (function () {
+    var key = {{ site.data.gate.storage_key | jsonify }};
+    var expected = {{ site.data.gate.code_hash | jsonify }};
+    var dest = {{ site.data.gate.destination | relative_url | jsonify }};
+    var gate = {{ '/' | relative_url | jsonify }};
+    var unlocked = false;
+    try { unlocked = window.localStorage.getItem(key) === expected; } catch (e) {}
+    function norm(path) {
+      if (!path) return '/';
+      path = path.replace(/\/index\.html$/i, '/');
+      if (path.charAt(path.length - 1) !== '/') path += '/';
+      if (path !== '/' && path.charAt(0) !== '/') path = '/' + path;
+      return path === '//' ? '/' : path;
+    }
+    var here = norm(window.location.pathname);
+    var isGate = here === norm(gate);
+    if (unlocked && isGate) {
+      window.location.replace(dest);
+      return;
+    }
+    if (!unlocked && !isGate) {
+      window.location.replace(gate);
+    }
+  })();
+</script>
+{% endif %}

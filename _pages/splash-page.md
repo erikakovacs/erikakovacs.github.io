@@ -1,7 +1,7 @@
 ---
 title: "Environmental Law Research & Analysis"
 layout: splash
-permalink: /
+permalink: /home/
 header:
   title: 'Environmental Law<br><span class="page__title-line">Research &amp; Analysis</span>'
   overlay_image: /assets/images/backg.jpg
